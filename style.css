@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #146C94;
+    background-image: url("images/workout.jpg");
+    backdrop-filter: blur(9px);
+    background-size: 1500px
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .banner {
+    
+  }
+  
+  h2{
+    color: #F6F1F1;
+  }
+   
+  footer{
+    text-align: center;
+  }
+  p{
+    color: #dae116;
+  }
+  li{
+    color: #FFD95A;
+  }
+  label{
+    color: #F6FFDE;
+  }
+  .button{
+    color: #FC4F00;
+  }
+  h1{
+    color: #F6F1F1;
+    text-align: center;
+  }
+  .end{
+    text-indent: 130px;
+  }
+  .Class{
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  }
+  h3{
+    color: white;
+  }
+ 
+  table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+  }
+  
+  th {
+    background-color: #4287f5;
+    color: white;
+  }
+  
+  th,
+  td {
+    width: 200px;
+    text-align: center;
+    border: 5px 
+    padding: 10px;
+  }
